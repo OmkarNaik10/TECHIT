@@ -1,0 +1,5 @@
+- Main source code is in "project.py"
+- Database creation script is located in DBCreation.py
+- Default data is add using "DBDefault.py"
+- Password encryption is implemented in "passwordHash.py"
+- Python libraries include tkinter, sqlite3, pillow, and bcrypt
