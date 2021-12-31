@@ -1663,13 +1663,13 @@ my_label100.place(x=0,y=0)
 
 #Manager buttons
 #view employee info button
-mangButton1 = Button(mang, text="View Employee Info", command=viewEmployees,font='Arial 20',padx=20,fg='blue',borderwidth=5) 
+mangButton1 = Button(mang, text="View Employee Info", command=viewEmployees,font='Arial 20',padx=10,fg='blue',borderwidth=5) 
 mangButton1.pack(pady=2)
-mangButton1.place(x=350,y=100)
+mangButton1.place(x=350,y=30)
 #employee view page
 mEmp = Toplevel(mang)
 mEmp.title("View all employees")
-mEmp.geometry("888x500")
+mEmp.geometry("888x467")
 mEmp.withdraw()
 my_img101= ImageTk.PhotoImage(Image.open("lmn.jpeg"))
 my_label101=Label(mEmp,image=my_img101)
@@ -1678,9 +1678,9 @@ my_label101.place(x=0,y=0)
 
 #buttons on employee view page
 #view engineers
-viewEmpButton1 = Button(mEmp, text="View Engineers Info", command=viewEngs,font='Arial 20',padx=20,fg='blue',borderwidth=5) 
+viewEmpButton1 = Button(mEmp, text="View Engineers Info", command=viewEngs,font='Arial 20',padx=14,fg='blue',borderwidth=5) 
 viewEmpButton1.pack(pady=2)
-viewEmpButton1.place(x=350,y=100)
+viewEmpButton1.place(x=350,y=30)
 #engineer view page
 mvEng = Toplevel(mEmp)
 mvEng.title("View all Engineers")
@@ -1689,9 +1689,9 @@ mvEng.withdraw()
 eTree=engTree()
 
 #view technicians
-viewEmpButton2 = Button(mEmp, text="View Technicians Info", command=viewTechs,font='Arial 20',padx=20,fg='blue',borderwidth=5) 
+viewEmpButton2 = Button(mEmp, text="View Technicians Info", command=viewTechs,font='Arial 20',padx=1,fg='blue',borderwidth=5) 
 viewEmpButton2.pack(pady=2)
-viewEmpButton2.place(x=350,y=200)
+viewEmpButton2.place(x=350,y=150)
 #technician view page
 mvTech = Toplevel(mEmp)
 mvTech.title("View all Technicians")
@@ -1701,9 +1701,9 @@ techT = techTree()
 
 
 #view DBAs
-viewEmpButton3 = Button(mEmp, text="View DBAs Info", command=viewDBAs,font='Arial 20',padx=20,fg='blue',borderwidth=5) 
+viewEmpButton3 = Button(mEmp, text="View DBAs Info", command=viewDBAs,font='Arial 20',padx=40,fg='blue',borderwidth=5) 
 viewEmpButton3.pack(pady=2)
-viewEmpButton3.place(x=350,y=300)
+viewEmpButton3.place(x=350,y=270)
 #DBA view page
 mvDBA = Toplevel(mEmp)
 mvDBA.title("View all DBAs")
@@ -1712,16 +1712,16 @@ mvDBA.withdraw()
 dTree = dbaTree()
 
 #back button
-viewBack = Button(mEmp, text="Back",font='Arial 20', command= backViewEmp,padx=20,fg='blue',borderwidth=5) 
+viewBack = Button(mEmp, text="Back",font='Arial 20', command= backViewEmp,padx=105,fg='blue',borderwidth=5) 
 viewBack.pack(pady=2)
-viewBack.place(x=350,y=400)
+viewBack.place(x=350,y=390)
 
 
 
 #assign/view projects button
-mangButton2 = Button(mang, text="Assign/view projects", command=mangProjects,font='Arial 20',padx=20,fg='blue',borderwidth=5) 
+mangButton2 = Button(mang, text="Assign/view projects", command=mangProjects,font='Arial 20',padx=5,fg='blue',borderwidth=5) 
 mangButton2.pack(pady=2)
-mangButton2.place(x=350,y=200)
+mangButton2.place(x=350,y=150)
 #proj page
 mProj = Toplevel(mang)
 mProj.title("Assign/view projects")
@@ -1793,9 +1793,9 @@ pBack.place(x=600,y=400)
 
 
 #assign/view tickets
-mangButton3 = Button(mang, text="Assign/view tickets", command=mangTickets,font='Arial 20',padx=20,fg='blue',borderwidth=5) 
+mangButton3 = Button(mang, text="Assign/view tickets", command=mangTickets,font='Arial 20',padx=15,fg='blue',borderwidth=5) 
 mangButton3.pack(pady=2)
-mangButton3.place(x=350,y=300)
+mangButton3.place(x=350,y=270)
 #tickets page
 mTick = Toplevel(mang)
 mTick.title("Assign/view tickets")
@@ -1822,7 +1822,7 @@ techEntry.place(x=200,y=350)
 #back
 mangButton100 = Button(mang, text="Log Out",font='Arial 20', command= back ,padx=80,fg='blue',borderwidth=5)  
 mangButton100.pack(pady=2)
-mangButton100.place(x=350,y=400)
+mangButton100.place(x=350,y=390)
 
 ##########################################################################################################
 
@@ -1875,7 +1875,7 @@ def remove_emp():
             e_id_flag=True
 
         if e_id_flag:
-            cursor.execute('Delete from employee where e_id=?',(e_id,))
+            cursor.execute('Delete from Employee where e_id=?',(e_id,))
             db.commit()
     
             messagebox.showinfo("success","record deleted")
@@ -2053,17 +2053,17 @@ viewemployee.title("DataBaseAdmin")
 viewemployee.geometry("888x500")
 viewemployee.withdraw()
 
-viewemployees = Button(dba, text="VIEW EMPLOYEES",font='Arial 20', command=show_all_employee ,padx=20,fg='blue',borderwidth=5)
+viewemployees = Button(dba, text="VIEW EMPLOYEES",font='Arial 20', command=show_all_employee ,padx=12,fg='blue',borderwidth=5)
 #loginButton.grid(row=4, column=0)
 viewemployees.pack(pady=2)
-viewemployees.place(x=350,y=130)
+viewemployees.place(x=350,y=30)
 
 '''dbabutton = Button(dash, text="DataBaseAdmin",font='Arial 20' ,padx=1,fg='blue',borderwidth=5) 
 #loginButton.grid(row=4, column=0) 
 dbabutton.pack(pady=2)
 dbabutton.place(x=350,y=330)'''
 
-backbuttondba = Button(dba, text="Log Out",font='Arial 20', command= backdba ,padx=80,fg='blue',borderwidth=5)
+backbuttondba = Button(dba, text="Log Out",font='Arial 20', command= backdba ,padx=85,fg='blue',borderwidth=5)
 #loginButton.grid(row=4, column=0)
 backbuttondba.pack(pady=2)
 backbuttondba.place(x=350,y=430)
@@ -2088,10 +2088,10 @@ removeemployee.title("DataBaseAdmin")
 removeemployee.geometry("888x500")
 removeemployee.withdraw()
 
-removeemployees = Button(dba, text="REMOVE EMPLOYEE",font='Arial 20', command=go_to_remove_gui ,padx=20,fg='blue',borderwidth=5)
+removeemployees = Button(dba, text="REMOVE EMPLOYEE",font='Arial 20', command=go_to_remove_gui ,padx=1,fg='blue',borderwidth=5)
 #loginButton.grid(row=4, column=0)
 removeemployees.pack(pady=2)
-removeemployees.place(x=340,y=280)
+removeemployees.place(x=350,y=230)
 
 #remove employee page
 # rememp = Toplevel(root)

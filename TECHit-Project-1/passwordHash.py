@@ -10,7 +10,7 @@ import bcrypt
 #This function is to hash the password entered by the user during registration. The hashed password is needed to be stored in the database.
 def hashPassword(password):
 	password_bytes=password.encode() #encoding the password string to bytes
-	salt = bcrypt.gensalt(14) #generating the salt to use with the password
+	salt = bcrypt.gensalt(8) #generating the salt to use with the password
 	password_hash_bytes = bcrypt.hashpw(password_bytes, salt) #hashing the combination of password and salt usign bcrypt
 	password_hash = password_hash_bytes.decode() #converting the password bytes to string
 	return password_hash

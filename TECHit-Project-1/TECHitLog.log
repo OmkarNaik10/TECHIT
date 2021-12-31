@@ -5,3 +5,269 @@
 2021-11-16 21:23:25,215:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
 2021-11-16 21:23:26,137:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
 2021-11-16 21:23:26,138:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-25 19:15:02,273:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-25 19:15:02,291:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-25 19:15:02,325:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-25 19:15:02,325:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-25 19:15:02,342:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-25 19:15:02,359:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-25 19:15:02,359:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 17:57:38,761:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 17:57:38,780:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 17:57:38,813:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 17:57:38,814:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 17:57:38,831:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 17:57:38,848:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 17:57:38,848:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 17:58:30,998:INFO:70:login:Login:KAnt has logged in
+2021-11-30 17:59:37,950:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 17:59:37,968:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 17:59:38,002:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 17:59:38,002:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 17:59:38,019:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 17:59:38,036:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 17:59:38,037:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 18:00:24,168:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 18:00:24,187:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:00:24,187:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:00:38,257:INFO:70:login:Login:ominaik has logged in
+2021-11-30 18:01:06,249:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:01:06,249:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:01:08,360:INFO:536:addtickengr:Engineer with ID 15 added ticket with ID 5
+2021-11-30 18:01:47,687:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 18:01:52,114:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:01:52,114:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:01:52,115:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:02:17,423:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:02:29,171:INFO:1242:assignPtoE:Project Gold assigned to Engineer with ID of 15
+2021-11-30 18:02:29,172:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:02:39,993:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:03:54,384:ERROR:1340:assignTicktoTech:Ticket 5 failed to be assigned to technician (Tech does not exist)
+2021-11-30 18:04:10,857:ERROR:1343:assignTicktoTech:Ticket 5 failed to be assigned to technician (Mismatching levels)
+2021-11-30 18:04:21,708:INFO:1357:assignTicktoTech:Ticket 5 assigned to Technician 4
+2021-11-30 18:04:21,709:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:04:26,801:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:04:38,956:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:04:43,730:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:07:00,928:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:07:15,200:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:07:15,201:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:07:15,202:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:07:16,991:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:07:42,877:INFO:70:login:Login:ominaik has logged in
+2021-11-30 18:08:11,250:INFO:70:login:Login:KAnt has logged in
+2021-11-30 18:08:38,994:ERROR:705:upttick:Failed to close ticket with ID 1
+2021-11-30 18:08:44,314:ERROR:705:upttick:Failed to close ticket with ID 4
+2021-11-30 18:08:47,290:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:08:49,327:INFO:741:upttick:Technician with ID 5 updated ticket with id (4,) to closed
+2021-11-30 18:09:24,350:INFO:70:login:Login:ominaik has logged in
+2021-11-30 18:11:24,650:INFO:70:login:Login:JOEY has logged in
+2021-11-30 18:12:01,114:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:12:08,306:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:12:30,874:ERROR:1882:remove_emp:Employee with ID 3 deleted from database
+2021-11-30 18:12:42,263:ERROR:1882:remove_emp:Employee with ID 5 deleted from database
+2021-11-30 18:12:54,792:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:14:28,163:ERROR:1870:remove_emp:Employee with ID 12 failed to be deleted
+2021-11-30 18:15:05,124:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:18:03,347:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 18:18:03,364:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 18:18:03,397:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 18:18:03,397:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 18:18:03,414:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 18:18:03,431:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 18:18:03,431:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 18:21:15,659:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 18:21:15,680:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:21:15,680:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:21:45,697:INFO:70:login:Login:JOEY has logged in
+2021-11-30 18:22:04,269:ERROR:1882:remove_emp:Employee with ID 15 deleted from database
+2021-11-30 18:22:37,729:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 18:22:37,738:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:22:37,739:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:23:10,007:INFO:70:login:Login:ominaik has logged in
+2021-11-30 18:23:34,757:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:23:34,758:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:23:35,762:INFO:536:addtickengr:Engineer with ID 15 added ticket with ID 5
+2021-11-30 18:24:14,664:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 18:24:16,910:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:24:16,911:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:24:16,912:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:25:31,102:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 18:25:31,881:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:25:34,256:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:25:46,037:INFO:1242:assignPtoE:Project Gold assigned to Engineer with ID of 15
+2021-11-30 18:25:46,038:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:25:49,031:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:26:02,070:INFO:1357:assignTicktoTech:Ticket 5 assigned to Technician 4
+2021-11-30 18:26:02,071:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:26:45,965:ERROR:75:login:Failed login: Attempt to login using KAnt username
+2021-11-30 18:27:03,930:INFO:70:login:Login:KAnt has logged in
+2021-11-30 18:27:16,533:ERROR:705:upttick:Failed to close ticket with ID 4
+2021-11-30 18:27:22,285:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:27:24,342:INFO:741:upttick:Technician with ID 5 updated ticket with id (4,) to closed
+2021-11-30 18:27:43,838:INFO:70:login:Login:JOEY has logged in
+2021-11-30 18:27:57,599:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:32:55,773:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 18:32:56,665:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:33:00,594:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:33:17,325:INFO:1242:assignPtoE:Project AI assigned to Engineer with ID of 10
+2021-11-30 18:33:17,326:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:33:36,973:INFO:70:login:Login:JOEY has logged in
+2021-11-30 18:33:49,674:ERROR:1882:remove_emp:Employee with ID 10 deleted from database
+2021-11-30 18:34:41,681:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:40:45,277:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 18:40:45,294:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 18:40:45,328:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 18:40:45,328:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 18:40:45,344:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 18:40:45,360:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 18:40:45,361:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 18:42:05,394:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 18:42:05,412:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:42:05,412:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:44:44,168:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 18:44:46,807:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:45:01,305:ERROR:1226:assignPtoE:Project GOLd not assigned to Engineer with ID of 15 (Invalid Project)
+2021-11-30 18:45:12,527:INFO:1242:assignPtoE:Project Gold assigned to Engineer with ID of 15
+2021-11-30 18:45:12,528:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:45:20,260:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 18:45:23,960:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:45:45,085:INFO:70:login:Login:ominaik has logged in
+2021-11-30 18:46:06,966:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:46:06,966:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 18:46:08,028:INFO:536:addtickengr:Engineer with ID 15 added ticket with ID 5
+2021-11-30 18:46:32,790:INFO:70:login:Login:JOEY has logged in
+2021-11-30 18:46:45,603:ERROR:1893:remove_emp:Employee with ID 15 failed to be deleted
+2021-11-30 18:48:08,747:INFO:374:add_emp:Registration: vvvvvv aaaaaaaaaaaaaa (aaaaaaa) has been added as Engineer to database 
+2021-11-30 18:48:08,766:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 18:48:08,767:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 18:48:29,775:ERROR:75:login:Failed login: Attempt to login using JOEY username
+2021-11-30 18:48:45,667:INFO:70:login:Login:JOEY has logged in
+2021-11-30 18:48:59,168:ERROR:1882:remove_emp:Employee with ID 100 deleted from database
+2021-11-30 18:50:00,029:ERROR:1882:remove_emp:Employee with ID 3 deleted from database
+2021-11-30 18:59:56,711:ERROR:1882:remove_emp:Employee with ID 10 deleted from database
+2021-11-30 19:00:12,834:ERROR:1893:remove_emp:Employee with ID 2 failed to be deleted
+2021-11-30 19:07:38,367:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 19:07:38,384:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 19:07:38,417:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 19:07:38,417:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 19:07:38,433:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 19:07:38,450:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 19:07:38,450:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 19:08:16,281:ERROR:75:login:Failed login: Attempt to login using JOEY username
+2021-11-30 19:08:34,790:INFO:70:login:Login:JOEY has logged in
+2021-11-30 19:08:41,249:ERROR:1893:remove_emp:Employee with ID 2 failed to be deleted
+2021-11-30 19:09:16,506:ERROR:1882:remove_emp:Employee with ID 10 deleted from database
+2021-11-30 19:20:37,523:ERROR:1893:remove_emp:Employee with ID 2 failed to be deleted
+2021-11-30 19:31:09,491:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 19:31:09,508:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 19:31:09,542:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 19:31:09,542:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 19:31:09,559:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 19:31:09,575:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 19:31:09,576:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 19:31:54,069:INFO:70:login:Login:JOEY has logged in
+2021-11-30 19:32:00,037:ERROR:1882:remove_emp:Employee with ID 10 deleted from database
+2021-11-30 19:32:05,057:ERROR:1882:remove_emp:Employee with ID 2 deleted from database
+2021-11-30 19:37:26,051:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 19:37:26,069:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 19:37:26,102:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 19:37:26,102:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 19:37:26,119:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 19:37:26,136:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 19:37:26,137:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 19:38:14,014:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 19:38:14,033:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:38:14,034:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:38:30,167:INFO:70:login:Login:ominaik has logged in
+2021-11-30 19:38:50,135:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:38:50,135:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:38:51,271:INFO:536:addtickengr:Engineer with ID 15 added ticket with ID 5
+2021-11-30 19:39:54,796:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 19:39:54,814:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 19:39:54,848:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 19:39:54,848:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 19:39:54,865:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 19:39:54,882:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 19:39:54,883:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 19:40:21,184:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 19:40:21,204:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 19:40:21,238:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 19:40:21,238:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 19:40:21,255:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 19:40:21,272:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 19:40:21,273:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 19:41:09,496:ERROR:206:add_emp:Failure to register as ominaik 
+2021-11-30 19:41:10,674:ERROR:331:add_emp:Failure to register as ominaik 
+2021-11-30 19:41:10,675:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:41:10,675:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:41:12,715:ERROR:206:add_emp:Failure to register as ominaik 
+2021-11-30 19:41:13,794:ERROR:331:add_emp:Failure to register as ominaik 
+2021-11-30 19:41:13,799:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:41:13,800:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:41:36,266:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 19:41:36,287:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:41:36,288:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:41:50,104:INFO:70:login:Login:ominaik has logged in
+2021-11-30 19:42:10,114:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:42:10,114:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:42:11,283:INFO:536:addtickengr:Engineer with ID 15 added ticket with ID 5
+2021-11-30 19:42:48,043:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 19:42:50,190:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:42:50,191:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:42:50,192:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 19:43:06,559:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 19:43:14,140:INFO:1242:assignPtoE:Project Gold assigned to Engineer with ID of 15
+2021-11-30 19:43:14,140:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:43:15,840:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:43:27,594:INFO:1357:assignTicktoTech:Ticket 5 assigned to Technician 4
+2021-11-30 19:43:27,595:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:43:54,665:ERROR:75:login:Failed login: Attempt to login using KAnt username
+2021-11-30 19:44:06,967:INFO:70:login:Login:KAnt has logged in
+2021-11-30 19:44:25,882:ERROR:705:upttick:Failed to close ticket with ID 4
+2021-11-30 19:44:29,013:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:44:30,500:INFO:741:upttick:Technician with ID 5 updated ticket with id (4,) to closed
+2021-11-30 19:44:47,914:INFO:70:login:Login:ominaik has logged in
+2021-11-30 19:45:27,688:INFO:70:login:Login:JOEY has logged in
+2021-11-30 19:45:49,379:ERROR:1882:remove_emp:Employee with ID 15 deleted from database
+2021-11-30 19:48:09,796:INFO:50:addDefManager:Registration: Hugh Mungus (Huge15) has been added as Manager to database 
+2021-11-30 19:48:09,814:INFO:36:addDefAdmin:Registration: Joe Smith (JOEY) has been added as DBA to database 
+2021-11-30 19:48:09,849:INFO:44:addDefEngineer:Registration: Anna Gram (Anny) has been added as Engineer to database 
+2021-11-30 19:48:09,849:INFO:45:addDefEngineer:Registration: Steve Job (steve123) has been added as Engineer to database 
+2021-11-30 19:48:09,867:INFO:56:addDefTechnicians:Registration: Kenny Ant (KAnt) has been added as Technician Level A to database 
+2021-11-30 19:48:09,884:INFO:60:addDefTechnicians:Registration: Timmy Turn (TimT) has been added as Technician Level B to database 
+2021-11-30 19:48:09,884:INFO:65:addDefTicket:Engineer with ID 2 added ticket with ID 1
+2021-11-30 19:48:57,498:ERROR:206:add_emp:Failure to register as ominaik 
+2021-11-30 19:48:58,820:ERROR:331:add_emp:Failure to register as ominaik 
+2021-11-30 19:48:58,824:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:48:58,824:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:49:22,344:INFO:374:add_emp:Registration: Omkar Naik (ominaik) has been added as Engineer to database 
+2021-11-30 19:49:22,365:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:49:22,365:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:49:33,710:INFO:70:login:Login:ominaik has logged in
+2021-11-30 19:50:01,533:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:50:01,533:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:50:02,612:INFO:536:addtickengr:Engineer with ID 15 added ticket with ID 5
+2021-11-30 19:50:35,791:INFO:70:login:Login:Huge15 has logged in
+2021-11-30 19:50:40,023:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:50:40,023:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:50:40,024:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 19:50:55,047:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 19:51:04,418:INFO:1242:assignPtoE:Project Gold assigned to Engineer with ID of 15
+2021-11-30 19:51:04,418:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:51:12,494:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:51:12,495:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:51:12,496:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 19:51:26,253:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:51:32,803:INFO:1357:assignTicktoTech:Ticket 5 assigned to Technician 4
+2021-11-30 19:51:32,804:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:51:38,533:INFO:1151:resetTechTree:Technician view tree updated
+2021-11-30 19:51:38,534:INFO:1123:resetEngineerTree:Engineer view tree updated
+2021-11-30 19:51:38,535:INFO:1183:resetProjTree:Project view tree updated
+2021-11-30 19:51:59,871:INFO:70:login:Login:KAnt has logged in
+2021-11-30 19:52:15,659:INFO:1171:resetTickTree:Ticket view tree updated
+2021-11-30 19:52:18,852:INFO:741:upttick:Technician with ID 5 updated ticket with id (4,) to closed
+2021-11-30 19:52:34,869:ERROR:705:upttick:Failed to close ticket with ID 1
+2021-11-30 19:53:02,869:ERROR:75:login:Failed login: Attempt to login using JOEY username
+2021-11-30 19:53:13,187:INFO:70:login:Login:JOEY has logged in
+2021-11-30 19:53:42,144:ERROR:1882:remove_emp:Employee with ID 15 deleted from database

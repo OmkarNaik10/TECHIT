@@ -191,7 +191,8 @@ def BuildDB():
 		submitted_on TEXT NOT NULL,
 		FOREIGN KEY (engr_id)
 		REFERENCES Employee (e_id)
-			ON UPDATE CASCADE,
+			ON UPDATE CASCADE
+			ON DELETE SET NULL,
 		FOREIGN KEY (tech_id)
 		REFERENCES Employee (e_id)
 			ON UPDATE CASCADE
